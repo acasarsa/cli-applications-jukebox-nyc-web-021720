@@ -60,6 +60,5 @@ def run(songs)
       play(songs)
     end
     input = gets.strip
-
   end
 end
