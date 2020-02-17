@@ -52,7 +52,6 @@ def run(songs)
   end
 
   unless input == "exit"
-    input = gets.strip
     if input == "help"
       help
     elsif input == "list"
