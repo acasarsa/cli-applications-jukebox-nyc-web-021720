@@ -57,7 +57,6 @@ def run(songs)
       list(songs)
     elsif input == "play"
       play(songs)
-binding.pry
     end
   end
 end
