@@ -51,12 +51,13 @@ def run
     input = gets.strip
     if input == "exit"
       exit_jukebox
+    elsif input == "help"
+      help
+    elsif input == "list"
+      list
+    elsif input == "play"
+      play
+
     end
-
-
-
-
-
   end
-
 end
