@@ -56,7 +56,7 @@ def run
     elsif input == "list"
       list
     elsif input == "play"
-      play
+      play(songs)
 
     end
   end
