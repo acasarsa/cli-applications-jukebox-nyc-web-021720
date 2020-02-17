@@ -59,6 +59,6 @@ def run(songs)
     elsif input == "play"
       play(songs)
     end
-    input = gets.strip
+    run(songs)
   end
 end
